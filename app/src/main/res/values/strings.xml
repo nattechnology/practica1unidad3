@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Punto_de_venta</string>
+    <string name="nombre">Nombre producto</string>
+    <string name="codigo">Código de barra</string>
+    <string name="precio">Precio proveedor</string>
+    <string name="precio_un">Precio unitario</string>
+    <string name="actividad">ALTA DE PRODUCTO</string>
+    <string name="actividad2">BAJA DE PRODUCTO</string>
+    <string name="actividad3">MODIFICACIÓN DE PRODUCTO</string>
+    <string name="actividad4">LECTURA DE PRODUCTO</string>
+    <string name="actividad5">MENÚ</string>
+    <string name="actividad6">BUSCAR</string>
+    <string name="btn">AGREGAR</string>
+    <string name="btn2">ELIMINAR</string>
+    <string name="btn3">MODIFICAR</string>
+    <string name="btn4">BUSCAR</string>
+</resources>
