@@ -2,9 +2,11 @@ package com.example.punto_de_venta;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.View;
 
 public class MainActivity7 extends AppCompatActivity {
 
@@ -17,10 +19,10 @@ public class MainActivity7 extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity7.this, MainActivity5.class);
+                Intent intent = new Intent(MainActivity7.this, login.class);
                 startActivityForResult(intent, 0);
                 finish();
             }
-        }, 6000);
+        }, 4000);
     }
 }

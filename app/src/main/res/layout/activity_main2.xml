@@ -25,18 +25,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="268dp"
-        android:onClick="menu"
+        android:onClick="eliminar"
         android:text="@string/btn2"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtCodigo4"
+        app:layout_constraintTop_toBottomOf="@+id/bajCodigo"
         app:layout_constraintVertical_bias="0.71" />
 
     <EditText
-        android:id="@+id/txtCodigo4"
+        android:id="@+id/bajCodigo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="252dp"
